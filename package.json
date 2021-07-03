@@ -1,0 +1,24 @@
+{
+  "homepage": "https://jaayperez.github.io/hype",
+  "name": "hype",
+  "version": "1.0.0",
+  "description": "A first take to a Progressive Web App password generator using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-debug": "nodemon --inspect server.js"
+  },
+  "keywords": [],
+  "author": "Justin Perez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.9"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

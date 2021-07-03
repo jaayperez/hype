@@ -3,7 +3,7 @@
   "name": "hype",
   "version": "1.0.0",
   "description": "A first take to a Progressive Web App password generator using Node.js",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "predeploy": "npm run build",
